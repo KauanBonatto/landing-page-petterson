@@ -1,0 +1,207 @@
+/* FONT STYLES */
+@font-face {
+	font-family: Abrade;
+	src: url("./fonts/Abrade-Regular.ttf");
+}
+@font-face {
+	font-family: Abrade-Medium;
+	src: url("./fonts/Abrade-Medium.ttf");
+}
+@font-face {
+	font-family: Abrade-Black;
+	src: url("./fonts/Abrade-Black.ttf");
+}
+@font-face {
+	font-family: Abrade-Bold;
+	src: url("./fonts/Abrade-Bold.ttf");
+}
+
+/* CUMON STYLES */
+
+.padding-10{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.padding-20{
+	padding: 20px;
+}
+.padding-45{
+	padding: 45px;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.margin-vertical{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.no-padding-bottom{
+	padding-bottom: 0px;
+}
+.bg-casamento{
+	background: url("./images/bg-casamento-blue.png");
+	background-size: 100%;
+}
+.horizontal-line.big{
+	width: 150px;
+	border: solid 3px #fff;
+}
+.horizontal-line{
+	background-color: white;
+	border: solid 1.5px #fff;
+	width: 100px;
+	margin: auto;
+	margin-top: 12px;
+}
+.vertical-line{
+	background-color: white;
+	height: 35px;
+	width: 4px;
+	margin: auto;
+	margin-top: 40px;
+}
+.main-text{
+	color: white;
+	text-align: justify;
+	font-family: 'Abrade-Medium';
+	font-size: 22px;
+	line-height: 22px;
+	padding: 2px;
+}
+.main-text.bold{
+	font-family: 'Abrade-Bold';
+	letter-spacing: 1px;
+}
+.main-text.big{
+	font-family: 'Abrade';
+	text-align: left;
+	font-size: 26px;
+	max-width: 655px;
+	line-height: 26px;
+}
+.main-text.black{
+	font-family: 'Abrade-Black';
+}
+.letter-spacing{
+	letter-spacing: 1px;
+}
+
+/* MAIN STYLES */
+
+body{
+	font-family: Abrade !important;
+	background-color: #030d22 !important;
+}
+.mainTitle{
+	font-family: Abrade-Medium;
+	font-size: 52px;
+	color:  white;
+	line-height: 0.9;
+}
+.mainButton{
+		font-family: 'Abrade-Black';
+    font-size: 20px;
+
+    padding: 12px 40px;
+
+    border: none;
+    border-radius: 50px;
+
+    color: white;
+    background-color: #5a1010;
+
+    letter-spacing: .9px;
+
+}
+.mainButton:hover{
+	background-color: #460f0f;
+}
+.mainButton.box-shadow{
+	box-shadow: 0px 0px 40px #831d1d;
+}
+.form{
+	display: flex;
+	flex-wrap: wrap;
+
+	width: 480px;
+
+	justify-content: center;
+	align-content: space-around;
+
+	margin: auto;
+	margin-top: 26px;
+}
+.input{
+	width: 100%;
+	padding: 4px 18px;
+	
+	outline: none;
+	border:  none;
+	border-bottom: solid 2px white;
+
+	font-family: 'Abrade';
+	font-size: 22px;
+
+	color: white;
+	background-color: transparent;
+}
+.carousel-item{
+	width: 200px !important;
+}
+.slider{
+	display: flex;
+	justify-content: space-evenly;
+	overflow-x: scroll;
+}
+.slider-item{
+	position: relative;
+	width: 420px;
+	height: 210px;
+}
+.slider-img{
+	width: 420px;
+	height: 210px;
+	background-size: 120% !important;
+	background-position: center -30px !important;
+	background-repeat: no-repeat;
+}
+.petterson-image{
+	width: 100%;
+	max-width: 353px;
+}
+/* SCROLLBAR STYLE */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.slider {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* PLACEHOLDER STYLE */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: Abrade;
+	font-size: 25px;
+	color: white;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-family: Abrade;
+	font-size: 25px;
+	color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	font-family: Abrade;
+	font-size: 25px;
+	color: white;
+}
